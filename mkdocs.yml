@@ -1,0 +1,8 @@
+site_name: DueWiz Dev
+theme: flatly
+repo_url: https://github.com/zhjch05/StudentOrganizer
+extra_css:
+    - css/highlight.css
+pages:
+    - Home: index.md
+    - About: about.md
