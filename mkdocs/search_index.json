@@ -11,6 +11,41 @@
             "title": "Welcome"
         }, 
         {
+            "location": "/front-end/background/", 
+            "text": "Background\n\n\nThis page is for picking up the most fundamentals for building front end for Student Organizer.\n\n\nGet Started\n\n\nStudent Organizer is built on top of Rails 4 with bootstrap.\n\n\nhttps://getbootstrap.com/\n\n\nWith bootswatch theme Cerulean.\n\n\nhttps://bootswatch.com/cerulean/\n\n\nFrontend Gem file\n\n\n#bootstrap series\ngem 'bootstrap-sass', '~> 3.3.5'\n# bootswatch theme for bootstrap\ngem 'bootswatch-rails'\n#date picker\ngem 'bootstrap-datepicker-rails'\n#font awesome icons\ngem \"font-awesome-rails\"\n\n\n\n\nDate picker plugin\n\n\nWe are now using bootstrap-datepicker package for the calendar.\n\n\nBut we may decide to develop a calendar that meets only our use.\n\n\nFontawesome icon example\n\n\ni class=\nfa fa-cog\n/i\n\n\nThis code snippet adds a settings like cog icon.\n\n\nImport to Rails\n\n\napp/assets/javascripts/application.js\n\n\n//= require bootstrap-datepicker\n\n\n\napp/assets/stylesheets/application.css.scss\n\n\n// Example using 'Cerulean' bootswatch\n\n //Import bootstrap-sprockets\n @import \nbootstrap-sprockets\n;\n\n // Import cerulean variables\n @import \nbootswatch/cerulean/variables\n;\n\n // Then bootstrap itself\n @import \nbootstrap\n;\n\n // Bootstrap body padding for fixed navbar\n body { padding-top: 60px; }\n\n // And finally bootswatch style itself\n @import \nbootswatch/cerulean/bootswatch\n;\n\n// font awesome\n @import \nfont-awesome\n;\n\n//datepicker and customized css for datepicker\n@import \nbootstrap-datepicker3\n;\n\n@import \ndatepicker\n;", 
+            "title": "Background"
+        }, 
+        {
+            "location": "/front-end/background/#background", 
+            "text": "This page is for picking up the most fundamentals for building front end for Student Organizer.", 
+            "title": "Background"
+        }, 
+        {
+            "location": "/front-end/background/#get-started", 
+            "text": "Student Organizer is built on top of Rails 4 with bootstrap.  https://getbootstrap.com/  With bootswatch theme Cerulean.  https://bootswatch.com/cerulean/", 
+            "title": "Get Started"
+        }, 
+        {
+            "location": "/front-end/background/#frontend-gem-file", 
+            "text": "#bootstrap series\ngem 'bootstrap-sass', '~> 3.3.5'\n# bootswatch theme for bootstrap\ngem 'bootswatch-rails'\n#date picker\ngem 'bootstrap-datepicker-rails'\n#font awesome icons\ngem \"font-awesome-rails\"", 
+            "title": "Frontend Gem file"
+        }, 
+        {
+            "location": "/front-end/background/#date-picker-plugin", 
+            "text": "We are now using bootstrap-datepicker package for the calendar.  But we may decide to develop a calendar that meets only our use.", 
+            "title": "Date picker plugin"
+        }, 
+        {
+            "location": "/front-end/background/#fontawesome-icon-example", 
+            "text": "i class= fa fa-cog /i  This code snippet adds a settings like cog icon.", 
+            "title": "Fontawesome icon example"
+        }, 
+        {
+            "location": "/front-end/background/#import-to-rails", 
+            "text": "app/assets/javascripts/application.js  //= require bootstrap-datepicker  app/assets/stylesheets/application.css.scss  // Example using 'Cerulean' bootswatch\n\n //Import bootstrap-sprockets\n @import  bootstrap-sprockets ;\n\n // Import cerulean variables\n @import  bootswatch/cerulean/variables ;\n\n // Then bootstrap itself\n @import  bootstrap ;\n\n // Bootstrap body padding for fixed navbar\n body { padding-top: 60px; }\n\n // And finally bootswatch style itself\n @import  bootswatch/cerulean/bootswatch ;\n\n// font awesome\n @import  font-awesome ;\n\n//datepicker and customized css for datepicker\n@import  bootstrap-datepicker3 ;\n\n@import  datepicker ;", 
+            "title": "Import to Rails"
+        }, 
+        {
             "location": "/about/", 
             "text": "About this site\n\n\nThis is a development documentation for the open source project Student Organizer.\n\n\nSee Github page: \nhttps://github.com/zhjch05/StudentOrganizer\n\n\nCurrent status\n\n\nThis site is being built.\n\n\nCredit to\n\n\nThe Student Organizer team:\n\n\nYiran Zheng\n\n\nXingyu Lu\n\n\nNishan Acharya\n\n\nJincheng Zhang", 
             "title": "About"
