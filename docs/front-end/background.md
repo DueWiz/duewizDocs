@@ -47,6 +47,8 @@ But we may decide to develop a calendar that meets only our use.
 
 This code snippet adds a settings like cog icon.
 
+For more icon names. Look it up at [http://fortawesome.github.io/Font-Awesome/icons/](http://fortawesome.github.io/Font-Awesome/icons/)
+
 ##Import to Rails
 
 app/assets/javascripts/application.js
