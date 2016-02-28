@@ -3,6 +3,9 @@ theme: flatly
 repo_url: https://github.com/zhjch05/StudentOrganizer
 extra_css:
     - css/highlight.css
+    - css/pre.css
 pages:
     - Home: index.md
+    - Front End:
+        - 'Background': 'front-end/background.md'
     - About: about.md

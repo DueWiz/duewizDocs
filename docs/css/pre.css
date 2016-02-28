@@ -1,0 +1,8 @@
+pre {
+    padding: 0px;
+    border: none;
+}
+
+code, kbd, pre, samp {
+    font-family: "Ubuntu mono",Monaco,Consolas,"Courier New",monospace;
+}
