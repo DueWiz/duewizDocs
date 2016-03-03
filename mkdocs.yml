@@ -1,6 +1,6 @@
 site_name: DueWiz Dev
 theme: flatly
-repo_url: https://github.com/zhjch05/StudentOrganizer
+repo_url: https://github.com/DueWiz/Student_Organizer
 extra_css:
     - css/highlight.css
     - css/pre.css
