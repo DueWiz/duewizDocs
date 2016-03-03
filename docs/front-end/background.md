@@ -57,22 +57,23 @@ app/assets/javascripts/application.js
 
 app/assets/stylesheets/application.css.scss
 
-<pre><code>// Example using 'Cerulean' bootswatch
-
-//Import bootstrap-sprockets
+<pre><code>//Import bootstrap-sprockets
 @import &quot;bootstrap-sprockets&quot;;
 
- // Import cerulean variables
+// Import cerulean variables
 @import &quot;bootswatch/cerulean/variables&quot;;
 
 // Then bootstrap itself
 @import &quot;bootstrap&quot;;
 
-// Bootstrap body padding for fixed navbar
-body { padding-top: 60px; }
-
 // And finally bootswatch style itself
 @import &quot;bootswatch/cerulean/bootswatch&quot;;
+
+// First set or import your overrides
+// $textColor: #000;
+
+// Then load variables
+// @import &quot;bootswatch/journal/variables&quot;;
 
 // font awesome
 @import &quot;font-awesome&quot;;
