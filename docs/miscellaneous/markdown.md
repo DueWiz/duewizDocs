@@ -29,6 +29,8 @@ Use
 
 for code blocks.
 
+To use inline block use ` `` ` which the quote mark is the key on left side of `1`
+
 Remind that html literals should be used inside the code tag. So we need to change our original code html literals.
 
 If you use atom, I have built a atom package wrapping the pre code tag for you.
