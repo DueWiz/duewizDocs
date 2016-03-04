@@ -4,7 +4,7 @@
     
     <url>
      <loc>None/</loc>
-     <lastmod>2016-03-02</lastmod>
+     <lastmod>2016-03-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,7 +13,7 @@
         
     <url>
      <loc>None/front-end/background/</loc>
-     <lastmod>2016-03-02</lastmod>
+     <lastmod>2016-03-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -23,7 +23,13 @@
         
     <url>
      <loc>None/miscellaneous/tips/</loc>
-     <lastmod>2016-03-02</lastmod>
+     <lastmod>2016-03-04</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/miscellaneous/markdown/</loc>
+     <lastmod>2016-03-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -32,7 +38,7 @@
     
     <url>
      <loc>None/about/</loc>
-     <lastmod>2016-03-02</lastmod>
+     <lastmod>2016-03-04</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
