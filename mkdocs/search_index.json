@@ -57,7 +57,7 @@
         }, 
         {
             "location": "/miscellaneous/markdown/", 
-            "text": "Markdown Guide\n\n\nThose md files in mkdocs will be compiled to html. There are some basic tutorials.\n\n\nFor inserting images or videos, take a look at the official guide.\n\n\nHeading tags\n\n\nBasically, a \n#\n means h1 tag in html. So if you use \n#\n in front of a line of title, the title will be marked with h1 tag in html.\n\n\n##\n for h2 and \n###\n for h3 etc..\n\n\nLinks\n\n\nSyntax for link is like\n\n\n[link name](href)\n\n\nFor example,\n\n\nOur github repo link is\n\n\n[https://github.com/DueWiz/Student_Organizer](https://github.com/DueWiz/Student_Organizer)\n\n\nCode blocks\n\n\nUse\n\n\npre\ncode\n/code\n/pre\n\n\n\nfor code blocks.\n\n\nRemind that html literals should be used inside the code tag. So we need to change our original code html literals.\n\n\nIf you use atom, I have built a atom package wrapping the pre code tag for you.\n\n\nhttps://atom.io/packages/atom-code2html\n\n\nThe package name is \natom-code2html", 
+            "text": "Markdown Guide\n\n\nThose md files in mkdocs will be compiled to html. There are some basic tutorials.\n\n\nFor inserting images or videos, take a look at the official guide.\n\n\nHeading tags\n\n\nBasically, a \n#\n means h1 tag in html. So if you use \n#\n in front of a line of title, the title will be marked with h1 tag in html.\n\n\n##\n for h2 and \n###\n for h3 etc..\n\n\nLinks\n\n\nSyntax for link is like\n\n\n[link name](href)\n\n\nFor example,\n\n\nOur github repo link is\n\n\n[https://github.com/DueWiz/Student_Organizer](https://github.com/DueWiz/Student_Organizer)\n\n\nCode blocks\n\n\nUse\n\n\npre\ncode\n/code\n/pre\n\n\n\nfor code blocks.\n\n\nTo use inline block use \n``\n which the quote mark is the key on left side of \n1\n\n\nRemind that html literals should be used inside the code tag. So we need to change our original code html literals.\n\n\nIf you use atom, I have built a atom package wrapping the pre code tag for you.\n\n\nhttps://atom.io/packages/atom-code2html\n\n\nThe package name is \natom-code2html", 
             "title": "Markdown"
         }, 
         {
@@ -77,7 +77,7 @@
         }, 
         {
             "location": "/miscellaneous/markdown/#code-blocks", 
-            "text": "Use  pre code /code /pre  for code blocks.  Remind that html literals should be used inside the code tag. So we need to change our original code html literals.  If you use atom, I have built a atom package wrapping the pre code tag for you.  https://atom.io/packages/atom-code2html  The package name is  atom-code2html", 
+            "text": "Use  pre code /code /pre  for code blocks.  To use inline block use  ``  which the quote mark is the key on left side of  1  Remind that html literals should be used inside the code tag. So we need to change our original code html literals.  If you use atom, I have built a atom package wrapping the pre code tag for you.  https://atom.io/packages/atom-code2html  The package name is  atom-code2html", 
             "title": "Code blocks"
         }, 
         {
