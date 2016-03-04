@@ -10,4 +10,5 @@ pages:
         - 'Background': 'front-end/background.md'
     - Miscellaneous:
         - 'Tips': 'miscellaneous/tips.md'
+        - 'Markdown': 'miscellaneous/markdown.md'
     - About: about.md
