@@ -46,6 +46,21 @@
             "title": "Import to Rails"
         }, 
         {
+            "location": "/front-end/bootstrap_form/", 
+            "text": "Bootstrap Form\n\n\nThis gem is for generating bootstrap forms from the built in form helper and  already referred in the Gemfile.\n\n\ngem 'bootstrap_form'\n\n\nUsage\n\n\nModify \nform_for\n to \nbootstrap_form_for\n\n\nAnd if custom bootstrap class(CSS class) is needed, use the \nclass\n attribute in the form helper.\n\n\nExample:\n\n\n%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %\n\n    \nh3 class=\nform-signin-heading\nLogin\n/h3\n\n    \n%= f.email_field :email, autofocus: true %\n\n    \n%= f.password_field :password, autocomplete: \noff\n %\n\n    \n% if devise_mapping.rememberable? -%\n\n        \n%= f.check_box :remember_me %\n\n    \n% end -%\n\n\n    \ndiv class=\nactions\n\n      \n%= f.submit \nLog in\n, class: \nbtn-lg btn-primary btn-block\n%\n\n    \n/div\n\n    \nbr/\n\n    \n%= render \nusers/shared/links\n %\n\n\n% end %\n\n\n\n\n\nI used \nbootstrap_form_for\n and customed \nclass\n for the submit button.", 
+            "title": "Bootstrap Form"
+        }, 
+        {
+            "location": "/front-end/bootstrap_form/#bootstrap-form", 
+            "text": "This gem is for generating bootstrap forms from the built in form helper and  already referred in the Gemfile.  gem 'bootstrap_form'", 
+            "title": "Bootstrap Form"
+        }, 
+        {
+            "location": "/front-end/bootstrap_form/#usage", 
+            "text": "Modify  form_for  to  bootstrap_form_for  And if custom bootstrap class(CSS class) is needed, use the  class  attribute in the form helper.  Example:  %= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| % \n     h3 class= form-signin-heading Login /h3 \n     %= f.email_field :email, autofocus: true % \n     %= f.password_field :password, autocomplete:  off  % \n     % if devise_mapping.rememberable? -% \n         %= f.check_box :remember_me % \n     % end -% \n\n     div class= actions \n       %= f.submit  Log in , class:  btn-lg btn-primary btn-block % \n     /div \n     br/ \n     %= render  users/shared/links  %  % end %   I used  bootstrap_form_for  and customed  class  for the submit button.", 
+            "title": "Usage"
+        }, 
+        {
             "location": "/miscellaneous/tips/", 
             "text": ".gitignore\n\n\nSince .gitignore is added(Rails) for security issues\n\n\nRun \nrake secret\n and in \nconfig/initializers/secret_token.rb\n\n\nRails.application.config.secret_key_base = '\nSECRET_KEY\n'", 
             "title": "Tips"
