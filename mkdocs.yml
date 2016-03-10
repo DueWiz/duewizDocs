@@ -8,6 +8,7 @@ pages:
     - Home: index.md
     - Front End:
         - 'Background': 'front-end/background.md'
+        - 'Bootstrap Form': 'front-end/bootstrap_form.md'
     - Miscellaneous:
         - 'Tips': 'miscellaneous/tips.md'
         - 'Markdown': 'miscellaneous/markdown.md'
